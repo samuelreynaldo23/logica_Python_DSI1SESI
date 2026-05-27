@@ -1,0 +1,87 @@
+# ===============================
+# MÓDULO 1 — CRIAÇÃO DE STRINGS
+# ==============================
+
+# EX1
+texto1 = "Logica"
+print(texto1, (texto1))
+
+# EX2
+texto2 = 'Eu sou top em python'
+print(texto2, (texto2))
+
+# EX3
+texto3 = 'copa "padrão fifa "'
+print(texto3, (texto3))
+
+# EX4
+texto4 = "copa 'padrão fifa'"
+print(texto4, (texto4))
+
+
+# ===============================
+# MÓDULO 2 — STRINGS MULTILINHA
+# ===============================
+# EX5
+menu = """
+-A  Exibe ajuda
+-E  Execute agora, quero jogar!
+"""
+print(menu, (menu))
+
+# EX6
+poema = """
+No teclado o código flui,
+A lógica o mundo constrói,
+O Python a dúvida exclui.
+"""
+print(poema, (poema))
+
+
+# ======================================================
+# MÓDULO 3 — CONCATENAÇÃO AUTOMÁTICA
+# ======================================================
+
+# EX7
+ex7 = "Volei" "top!"
+print(ex7, (ex7))
+
+# EX8
+ex8 = "Python" " é " "demais"
+print(ex8, (ex8))
+
+
+# ======================================================
+# MÓDULO 4 — STRINGS COMO SEQUÊNCIAS
+# ======================================================
+
+st = "software"
+
+# EX9: Primeira letra
+print(st[0], (st[0]))
+
+# EX10: Última letra
+print(st[-1], (st[-1]))
+
+# EX11: Índice 1 ao 4 (exclusivo)
+print(st[1:4], (st[1:4]))
+
+# EX12: Início até o índice 3
+print(st[:3], (st[:3]))
+
+# EX13: Índice 2 até o final
+print(st[2:], (st[2:]))
+
+# EX14: Tamanho da string (Aqui o type será <class 'int'>!)
+tamanho = len(st)
+print(tamanho, (tamanho))
+
+# EX15: Último caractere com índice positivo
+print(st[len(st)-1], (st[len(st)-1]))
+
+# EX16: Caracteres em índices pares
+print(st[::2], (st[::2]))
+
+# EX17: Inverter a string
+st_invertida = st[::-1]
+print(st_invertida, (st_invertida))
