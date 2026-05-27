@@ -22,7 +22,7 @@ print("Tipo da variável numero:", type(numero))
 # EX3
 # Converta a string "-3.14" para float
 # e multiplique o resultado por 2.
-
+ 
 valor = float("-3.14")
 
 print("Resultado:", valor * 2)
