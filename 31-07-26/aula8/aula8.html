@@ -60,17 +60,37 @@
         </textarea> <br>
        <label for="linguagem">linguagem favorita
 </label>
-            <input text="linguagem" name = "linguagem">
+            <input text="linguagem" name = "linguagem" id="linguagem" list="linguagens">
             <datalist id = "linguagens">
                 <option value="HTML" >
                 <option value="CSS" >
                     <option value="JAVASCRIPT">
                     <option value="Python">
                         <option value="Java"
-                        >></datalist>
+                        ></option></datalist> <br>
+                        <label for="contato">contato</label>
+                        <address>
+                            EMAIL : reynaldosamuel7@gmail.com <br>
+                            CONTATO : (11) 969639880
+
+                        </address><br>
         </fieldset>
 
+     
+     
+        
+        <fieldset>
+            <details>
+                <legend>outras informaçoes</legend>
+                <summary>O que é um formulario HTML?</summary>
+                <p>Um formulario HTML é utilizado para coletar informaçoes dos usuarios e envia-las para um servidor.</p>
+             </details>
 
+             <p>O campo <mark>senha</mark>precisa ter pelo menos 6 caracteres</p>
+             <label for="Hora-Cadastro">horario preferido para contato </label>
+             <input type="time" id =  "hora Hora-Cadastro" name = "Hora-Cadastro">
+        </fieldset>
+        <button type = "submit" > cadastrar</button>
     </form>
 
 
