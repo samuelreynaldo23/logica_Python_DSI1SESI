@@ -1,0 +1,20 @@
+body {
+    background-color: #05C7F2;
+    background-color: #05DBF2;
+    background-color:   rgb(5, 199, 242, 95);
+}
+h1 {
+   color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h2{
+font-size: 3em;
+}
+p{
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
