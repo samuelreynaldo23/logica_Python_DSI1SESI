@@ -17,5 +17,6 @@
      padding-right: 20px; /* Aplica apenas na parte direita */
         padding-bottom: 20px; /* Aplica apenas na parte inferior */
         padding-left: 20px; /* Aplica apenas na parte esquerda */
+        border-radius: 30px; /* Arredonda as bordas */
         
 }

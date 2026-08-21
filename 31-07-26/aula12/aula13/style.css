@@ -1,0 +1,45 @@
+/*=====================
+/*configuração geral*/
+/*=====================*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30;
+}
+h1 {
+margin-bottom: 5;
+}
+
+
+h2 {
+    margin-top: 40;
+}
+
+/*=====================
+/*ocupa toda a largura*/
+.block{
+    display: block;
+    background-color: #00b3fa;
+    padding: 20px;
+    margin: 5px ;
+    border: 2px solid #00b3fa;
+}
+
+/*=====================
+/*ocupa apenas a largura do conteúdo*/
+.inline{
+    display: inline;
+    background-color: #e60606;
+    padding: 20px;
+    margin: 5px ;
+    border: 2px solid #00ffaa;
+}
+
+/*=====================
+/*ocupa a largura do conteúdo e permite alinhamento vertical*/
+.inline-block{
+    display: inline-block;
+    background-color: #06e6c1;
+    padding: 20px;
+    margin: 5px ;
+    border: 2px solid #00ffaa;
+}
